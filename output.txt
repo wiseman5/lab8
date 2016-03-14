@@ -1,0 +1,43 @@
+nohup: ignoring input
+Connected
+[0mGET / [32m200 [0m6.670 ms - 506[0m
+[0mGET /javascripts/comments.js [32m200 [0m2.042 ms - 843[0m
+[0mGET /favicon.ico [33m404 [0m310.197 ms - 1818[0m
+In the GET route?
+[ { __v: 0, _id: 56e70e87efeaa9ac5e293dd1 },
+  { __v: 0, _id: 56e725ea9b772b745f7610f5 },
+  { __v: 0,
+    Comment: 'Hello from the TA!',
+    Name: 'Jordan',
+    _id: 56e72cd1b14f5b7f60029d38 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Mickey',
+    _id: 56e72cd1b14f5b7f60029d39 } ]
+[0mGET /comment [32m200 [0m18.610 ms - 254[0m
+POST comment route
+{ Name: 'Minnie', Comment: 'Mouse' }
+{ _id: 56e732fa16f2f6c4608636bf,
+  Comment: 'Mouse',
+  Name: 'Minnie' }
+{ _id: 56e732fa16f2f6c4608636bf,
+  Comment: 'Mouse',
+  Name: 'Minnie',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m25.950 ms - 2[0m
+In the GET route?
+[ { __v: 0, _id: 56e70e87efeaa9ac5e293dd1 },
+  { __v: 0, _id: 56e725ea9b772b745f7610f5 },
+  { __v: 0,
+    Comment: 'Hello from the TA!',
+    Name: 'Jordan',
+    _id: 56e72cd1b14f5b7f60029d38 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Mickey',
+    _id: 56e72cd1b14f5b7f60029d39 },
+  { __v: 0,
+    Comment: 'Mouse',
+    Name: 'Minnie',
+    _id: 56e732fa16f2f6c4608636bf } ]
+[0mGET /comment [32m200 [0m4.506 ms - 331[0m
